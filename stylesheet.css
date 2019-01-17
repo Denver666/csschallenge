@@ -1,0 +1,153 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0px;
+}
+
+/* Mobile
+ */
+@media only screen and (max-width: 600px) {
+    /*Header
+    */
+    li.toplist {
+        display: ;
+        border: none;
+        background-color: #464749;
+        color: white;
+        border-top: 1px solid white;
+        padding: 5px;
+        font-size: 12px;
+
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    a:hover {
+        color: #e55b60;
+    }
+
+    div.top {
+        text-align: center;
+        margin: 0m;
+        padding: 0m;
+        font-size: 15px;
+    }
+
+    p.titeltwee {
+        font-size: 12px;
+       }
+    /*test
+     */
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #c42121;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+/* Section
+ */
+    section, footer {
+        margin: 10px;
+    }
+    a.readmore {
+        color: white;
+        background: #c42121;
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 400;
+    }
+
+    p.articles {
+    font-size: 15px;
+    }
+    p.news {
+        color:#c42121;
+        font-size: 15px;
+    }
+    /* Footer
+     */
+    footer {
+        color: black;
+        text-decoration: none;
+    }
+    li.listblank {
+        background-color: white;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    li.listblank a{
+        color: grey;
+        text-decoration: none;
+    }
+    P {
+        font-size: 20px;
+        padding: 0px;
+
+    }
+    h3.bottom {
+        font-size: 15px;
+        border-bottom: 2px solid #c42121;
+    }
+}
