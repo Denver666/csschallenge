@@ -1,167 +1,199 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
 body {
     margin: 0px;
 }
 
 /* Mobile
  */
-    /*Header
-    */
-    li.toplist {
-        display: ;
-        border: none;
-        background-color: #464749;
-        color: white;
-        border-top: 1px solid white;
-        padding: 5px;
-        font-size: 12px;
+/*Header
+*/
+li.toplist {
+    display: ;
+    border: none;
+    background-color: #464749;
+    color: white;
+    border-top: 1px solid white;
+    padding: 5px;
+    font-size: 12px;
 
-    }
+}
 
-    li a {
-        text-decoration: none;
-        color: white;
-    }
+li a {
+    text-decoration: none;
+    color: white;
+}
 
-    ul {
-        padding: 0px;
-        margin: 0px;
-    }
+ul {
+    padding: 0px;
+    margin: 0px;
+}
 
-    a:hover {
-        color: #e55b60;
-    }
+a:hover {
+    color: #e55b60;
+}
 
-    div.top {
-        text-align: center;
-        font-size: 15px;
-    }
+div.top {
+    text-align: center;
+    font-size: 15px;
+}
 
-    p.titeltwee {
-        font-size: 12px;
-    }
-    /*test
-     */
-    .navbar {
-        overflow: hidden;
-        background-color: #333;
-    }
+p.titeltwee {
+    font-size: 12px;
+}
 
-    .navbar a {
-        float: left;
-        font-size: 16px;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+/*test
+ */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
 
-    .dropdown {
-        float: left;
-        overflow: hidden;
-    }
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-    .dropdown .dropbtn {
-        font-size: 16px;
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-    }
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
 
-    .navbar a:hover, .dropdown:hover .dropbtn {
-        background-color: #c42121;
-    }
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
 
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #c42121;
+}
 
-    .dropdown-content a {
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-    }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
 
-    .dropdown-content a:hover {
-        background-color: #ddd;
-    }
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
 
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    /* Section
-     */
-    section, footer {
-        margin: 10px;
-    }
-    a.readmore {
-        color: white;
-        background: #c42121;
-        text-decoration: none;
-        padding: 5px;
-        font-weight: 400;
-    }
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-    p.news {
-        color:#c42121;
-        font-size: 15px;
-    }
-    /* Footer
-     */
-    footer {
-        color: black;
-        text-decoration: none;
-    }
-    li.listblank {
-        background-color: white;
-        font-size: 13px;
-        text-decoration: none;
-    }
-    li.listblank a{
-        text-decoration: none;
-        color: grey;
-    }
-    P {
-        font-size: 20px;
-        padding: 0px;
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-    }
-    p.articles {
-        font-size: 15px;
-    }
-    h3.bottom {
-        font-size: 15px;
-        border-bottom: 2px solid #c42121;
-    }
-    img {
-        width: 100%;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    li {
-        list-style: none;
-    }
-    p.kleinetext {
-        text-align: center;
-        font-size: 12px;
-    }
-    li.listblank:hover {
-        color: #c42121;
-    }
+/* Section
+ */
+section, footer {
+    margin: 10px;
+}
+.button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+a.readmore {
+    color: white;
+    background: #c42121;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 400;
+}
+
+p.news {
+    color: #c42121;
+    font-size: 15px;
+}
+
+/* Footer
+ */
+footer {
+    color: black;
+    text-decoration: none;
+}
+
+li.listblank {
+    background-color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+li.listblank a {
+    text-decoration: none;
+    color: grey;
+}
+
+P {
+    font-size: 20px;
+    padding: 0px;
+
+}
+
+p.articles {
+    font-size: 15px;
+}
+
+h3.bottom {
+    font-size: 15px;
+    border-bottom: 2px solid #c42121;
+}
+
+img {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+p.kleinetext {
+    text-align: center;
+    font-size: 12px;
+}
+
+li.listblank:hover {
+    color: #c42121;
+}
 
 @media only screen and (min-width: 768px) {
     div.top {
@@ -171,37 +203,46 @@ body {
         position: relative;
         right: 18em;
     }
+
     div#wrapper {
         width: 768px;
         margin: 0 auto;
     }
 
 }
+
 @media only screen and (min-width: 1200px) {
     section {
         float: left;
         width: 65%;
         font-size: 15px;
     }
+
     div.top {
         right: 32.5em;
     }
+
     footer {
         float: right;
         width: 15%;
         margin-right: 25px;
     }
+
     img {
     }
+
     article.articles {
         font-size: 15px;
     }
+
     li.listblank {
         font-size: 15px;
     }
+
     h3.bottom {
         font-size: 15px;
     }
+
     div#wrapper {
         width: 1200px;
         margin: 0 auto;
