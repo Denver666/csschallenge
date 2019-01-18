@@ -163,16 +163,16 @@ body {
         color: #c42121;
     }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     div.top {
         /* text-align: left; */
         text-align: center;
         /* float: left; */
         position: relative;
-        right: 11em;
+        right: 17em;
     }
     div#wrapper {
-        width: 600px;
+        width: 768px;
         margin: 0 auto;
     }
 
@@ -203,7 +203,7 @@ body {
         font-size: 15px;
     }
     div#wrapper {
-        width: 1000px;
+        width: 1200px;
         margin: 0 auto;
     }
 }
